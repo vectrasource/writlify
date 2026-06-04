@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Writlify</title>
+<meta name="description" content="Writlify's Terms of Service. Simple, fair terms for using our free AI writing tools.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/terms.html" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--er:#E24B4A;--erb:#FCEBEB;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* HERO */
+.phero{padding:64px 2rem 0;text-align:center;position:relative;overflow:hidden}
+.phero-bg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 50% 60% at 50% 0%,rgba(91,79,232,.07) 0,transparent 70%)}
+.phero-dots{position:absolute;inset:0;z-index:0;background-image:radial-gradient(circle,rgba(91,79,232,.08) 1px,transparent 1px);background-size:28px 28px;mask-image:radial-gradient(ellipse 70% 50% at 50% 0%,black,transparent)}
+.pbadge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:20px;position:relative;z-index:1;animation:fu .5s ease both}
+.phero h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);position:relative;z-index:1;animation:fu .5s .1s ease both;margin-bottom:14px}
+.phero h1 span{color:var(--br)}
+.phero-sub{font-size:16px;font-weight:300;color:var(--inks);max-width:480px;margin:0 auto 40px;position:relative;z-index:1;animation:fu .5s .2s ease both}
+.pupdated{display:inline-flex;align-items:center;gap:8px;background:var(--wh);border:1px solid var(--bor);border-radius:100px;padding:6px 16px;font-size:12px;color:var(--inks);position:relative;z-index:1;animation:fu .5s .3s ease both;margin-bottom:48px}
+.pupdated::before{content:'';width:7px;height:7px;background:var(--ok);border-radius:50%}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+/* LAYOUT */
+.playout{max-width:1060px;margin:0 auto;padding:0 2rem 80px;display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:start}
+@media(max-width:720px){.playout{grid-template-columns:1fr}.pnav{display:none}}
+
+/* SIDEBAR NAV */
+.pnav{position:sticky;top:82px}
+.pnav-title{font-size:11px;font-weight:500;color:var(--inks);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.pnav-links{display:flex;flex-direction:column;gap:2px}
+.pnav-links a{font-size:13px;color:var(--inks);text-decoration:none;padding:7px 12px;border-radius:8px;transition:.15s;border-left:2px solid transparent}
+.pnav-links a:hover{background:var(--brb);color:var(--br);border-left-color:var(--br)}
+.pnav-links a.active{background:var(--brb);color:var(--br);border-left-color:var(--br);font-weight:500}
+
+/* CONTENT */
+.pcontent{animation:fu .5s .2s ease both}
+.psection{margin-bottom:48px;scroll-margin-top:82px}
+.psection-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.psection-num{width:32px;height:32px;background:var(--brb);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--br);flex-shrink:0}
+.psection h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink);letter-spacing:-.4px}
+.psection p{font-size:15px;color:var(--inkm);line-height:1.75;font-weight:300;margin-bottom:14px}
+.psection p:last-child{margin-bottom:0}
+.psection ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.psection ul li{font-size:15px;color:var(--inkm);font-weight:300;line-height:1.7;padding-left:20px;position:relative}
+.psection ul li::before{content:'';position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--brl)}
+.psection strong{font-weight:500;color:var(--ink)}
+.pcard{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px;margin-bottom:14px}
+.pcard:last-child{margin-bottom:0}
+.pcard-title{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.pcard p{margin-bottom:0}
+.phighlight{background:var(--brb);border:1px solid rgba(91,79,232,.2);border-radius:var(--r);padding:18px 22px;margin-bottom:20px}
+.phighlight p{color:var(--br);font-weight:400;margin-bottom:0}
+.pwarning{background:var(--erb);border:1px solid rgba(226,75,74,.2);border-radius:var(--r);padding:18px 22px;margin-bottom:20px}
+.pwarning p{color:#791F1F;font-weight:400;margin-bottom:0}
+.pdivider{height:1px;background:var(--bors);margin-bottom:48px}
+
+/* CONTACT CARD */
+.pcontact{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:28px;text-align:center;margin-top:48px}
+.pcontact h3{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;color:var(--ink);margin-bottom:8px}
+.pcontact p{font-size:14px;color:var(--inks);font-weight:300;margin-bottom:16px}
+.pcontact a{display:inline-flex;align-items:center;gap:8px;background:var(--br);color:#fff;text-decoration:none;border-radius:9px;padding:10px 22px;font-size:14px;font-weight:500;transition:.18s}
+.pcontact a:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="phero">
+  <div class="phero-bg"></div>
+  <div class="phero-dots"></div>
+  <div class="pbadge">📄 Legal</div>
+  <h1>Terms of <span>Service</span></h1>
+  <p class="phero-sub">Simple, fair terms. By using Writlify you agree to these. We've kept them as readable as possible.</p>
+  <div class="pupdated">Last updated: June 3, 2026</div>
+</div>
+
+<div class="playout">
+
+  <!-- Sidebar -->
+  <nav class="pnav">
+    <div class="pnav-title">On this page</div>
+    <div class="pnav-links">
+      <a href="#acceptance" class="active">Acceptance</a>
+      <a href="#service">The service</a>
+      <a href="#acceptable-use">Acceptable use</a>
+      <a href="#prohibited">Prohibited use</a>
+      <a href="#ip">Intellectual property</a>
+      <a href="#disclaimer">Disclaimer</a>
+      <a href="#liability">Limitation of liability</a>
+      <a href="#termination">Termination</a>
+      <a href="#changes">Changes</a>
+      <a href="#governing-law">Governing law</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="pcontent">
+
+    <div class="phighlight">
+      <p>💡 <strong>Short version:</strong> Use Writlify for lawful, ethical purposes. Don't abuse the service or misuse AI outputs. The service is provided free of charge and as-is. We're not liable for how you use the results.</p>
+    </div>
+
+    <div class="psection" id="acceptance">
+      <div class="psection-head">
+        <div class="psection-num">01</div>
+        <h2>Acceptance of terms</h2>
+      </div>
+      <p>By accessing or using Writlify at <strong>writlify.com</strong> ("the Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the Service.</p>
+      <p>These Terms apply to all visitors and users of Writlify. The Service is operated by <strong>Vectrasource Digital Suite</strong>.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="service">
+      <div class="psection-head">
+        <div class="psection-num">02</div>
+        <h2>The service</h2>
+      </div>
+      <p>Writlify provides a suite of free AI-powered and rule-based writing tools including grammar checking, paraphrasing, summarising, translating, and more. The Service is provided free of charge and requires no account registration.</p>
+      <div class="pcard">
+        <div class="pcard-title">AI-powered tools</div>
+        <p>Several tools use the Claude AI API by Anthropic to generate results. Outputs are generated by an AI model and may not always be accurate, complete, or appropriate. Always review AI-generated content before use.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Daily usage limits</div>
+        <p>To ensure fair access for all users, AI-powered tools are limited to 5 uses per day per browser. This limit resets every 24 hours and is enforced via browser localStorage.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Service availability</div>
+        <p>We aim to keep Writlify available at all times but do not guarantee uninterrupted access. We may update, modify, or temporarily suspend the Service at any time without notice.</p>
+      </div>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="acceptable-use">
+      <div class="psection-head">
+        <div class="psection-num">03</div>
+        <h2>Acceptable use</h2>
+      </div>
+      <p>You may use Writlify for any lawful personal, educational, or commercial writing purposes, including:</p>
+      <ul>
+        <li>Improving grammar and clarity in your own writing</li>
+        <li>Summarising documents for personal use</li>
+        <li>Translating text for communication purposes</li>
+        <li>Drafting cover letters, bios, and professional content</li>
+        <li>Generating placeholder text for design projects</li>
+      </ul>
+      <p>You are solely responsible for how you use the outputs generated by Writlify.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="prohibited">
+      <div class="psection-head">
+        <div class="psection-num">04</div>
+        <h2>Prohibited use</h2>
+      </div>
+      <div class="pwarning">
+        <p>⚠️ Misuse of Writlify may result in access being restricted. The following uses are strictly prohibited.</p>
+      </div>
+      <p>You agree not to use the Service to:</p>
+      <ul>
+        <li>Generate content that is illegal, harmful, threatening, abusive, or harassing</li>
+        <li>Create spam, phishing content, or deceptive materials</li>
+        <li>Produce content that infringes on any third party's intellectual property rights</li>
+        <li>Generate misinformation, disinformation, or deliberately misleading content</li>
+        <li>Circumvent, disable, or otherwise interfere with security-related features</li>
+        <li>Scrape, crawl, or systematically access the Service using automated tools</li>
+        <li>Attempt to bypass the daily usage limit through technical means</li>
+        <li>Use the Service for any purpose that violates Anthropic's usage policies</li>
+      </ul>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="ip">
+      <div class="psection-head">
+        <div class="psection-num">05</div>
+        <h2>Intellectual property</h2>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Your content</div>
+        <p>You retain full ownership of any text you submit to the Service. By submitting text, you grant us a limited, temporary licence to process it solely for the purpose of generating the tool output you requested.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">AI outputs</div>
+        <p>Outputs generated by AI tools are provided for your use. You are responsible for reviewing AI-generated content and ensuring it does not infringe on any third party's rights before using it publicly or commercially.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Writlify brand & code</div>
+        <p>The Writlify name, logo, design, and underlying code are the property of Vectrasource Digital Suite. You may not reproduce, copy, or use them without prior written permission.</p>
+      </div>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="disclaimer">
+      <div class="psection-head">
+        <div class="psection-num">06</div>
+        <h2>Disclaimer of warranties</h2>
+      </div>
+      <p>The Service is provided <strong>"as is"</strong> and <strong>"as available"</strong> without any warranties of any kind, either express or implied, including but not limited to:</p>
+      <ul>
+        <li>Accuracy or completeness of AI-generated outputs</li>
+        <li>Fitness for a particular purpose</li>
+        <li>Uninterrupted or error-free operation</li>
+        <li>Freedom from viruses or other harmful components</li>
+      </ul>
+      <p>AI outputs are generated by a third-party model and may contain errors, inaccuracies, or content that is not suitable for your specific use. Always review outputs before use.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="liability">
+      <div class="psection-head">
+        <div class="psection-num">07</div>
+        <h2>Limitation of liability</h2>
+      </div>
+      <p>To the fullest extent permitted by law, Vectrasource Digital Suite shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from:</p>
+      <ul>
+        <li>Your use of or inability to use the Service</li>
+        <li>Any errors or inaccuracies in AI-generated content</li>
+        <li>Any reliance you place on outputs from the Service</li>
+        <li>Any unauthorised access to or use of our servers</li>
+      </ul>
+      <p>Since Writlify is a free service, our total liability to you for any claim shall not exceed <strong>$0 USD</strong>.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="termination">
+      <div class="psection-head">
+        <div class="psection-num">08</div>
+        <h2>Termination</h2>
+      </div>
+      <p>We reserve the right to restrict or terminate access to the Service at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties.</p>
+      <p>You may stop using the Service at any time. Since no account is required, there is nothing to delete.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="changes">
+      <div class="psection-head">
+        <div class="psection-num">09</div>
+        <h2>Changes to these terms</h2>
+      </div>
+      <p>We may revise these Terms at any time. When we do, we will update the "Last updated" date at the top of this page. Your continued use of the Service after any changes constitutes your acceptance of the revised Terms.</p>
+      <p>We encourage you to review these Terms periodically to stay informed of any updates.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="governing-law">
+      <div class="psection-head">
+        <div class="psection-num">10</div>
+        <h2>Governing law</h2>
+      </div>
+      <p>These Terms shall be governed by and construed in accordance with applicable laws. Any disputes arising from use of the Service shall be resolved in good faith between the parties before pursuing formal legal action.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="contact">
+      <div class="psection-head">
+        <div class="psection-num">11</div>
+        <h2>Contact us</h2>
+      </div>
+      <p>If you have any questions about these Terms of Service, please contact us:</p>
+    </div>
+
+    <div class="pcontact">
+      <h3>Questions about these terms?</h3>
+      <p>We're happy to clarify anything. Reach out to the Writlify team.</p>
+      <a href="mailto:legal@writlify.com">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        legal@writlify.com
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa">Privacy</a>
+    <a href="/terms.html" class="fa" style="color:var(--br)">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+  const sections = document.querySelectorAll('.psection');
+  const navLinks = document.querySelectorAll('.pnav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.remove('active');
+      if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
