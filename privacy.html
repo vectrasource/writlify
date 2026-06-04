@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Writlify</title>
+<meta name="description" content="Writlify's privacy policy. Learn how we handle your data — spoiler: we barely collect any.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/privacy.html" />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* HERO */
+.phero{padding:64px 2rem 0;text-align:center;position:relative;overflow:hidden}
+.phero-bg{position:absolute;inset:0;z-index:0;background:radial-gradient(ellipse 50% 60% at 50% 0%,rgba(91,79,232,.07) 0,transparent 70%)}
+.phero-dots{position:absolute;inset:0;z-index:0;background-image:radial-gradient(circle,rgba(91,79,232,.08) 1px,transparent 1px);background-size:28px 28px;mask-image:radial-gradient(ellipse 70% 50% at 50% 0%,black,transparent)}
+.pbadge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:20px;position:relative;z-index:1;animation:fu .5s ease both}
+.phero h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);position:relative;z-index:1;animation:fu .5s .1s ease both;margin-bottom:14px}
+.phero h1 span{color:var(--br)}
+.phero-sub{font-size:16px;font-weight:300;color:var(--inks);max-width:480px;margin:0 auto 40px;position:relative;z-index:1;animation:fu .5s .2s ease both}
+.pupdated{display:inline-flex;align-items:center;gap:8px;background:var(--wh);border:1px solid var(--bor);border-radius:100px;padding:6px 16px;font-size:12px;color:var(--inks);position:relative;z-index:1;animation:fu .5s .3s ease both;margin-bottom:48px}
+.pupdated::before{content:'';width:7px;height:7px;background:var(--ok);border-radius:50%}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+
+/* LAYOUT */
+.playout{max-width:1060px;margin:0 auto;padding:0 2rem 80px;display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:start}
+@media(max-width:720px){.playout{grid-template-columns:1fr}.pnav{display:none}}
+
+/* SIDEBAR NAV */
+.pnav{position:sticky;top:82px}
+.pnav-title{font-size:11px;font-weight:500;color:var(--inks);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.pnav-links{display:flex;flex-direction:column;gap:2px}
+.pnav-links a{font-size:13px;color:var(--inks);text-decoration:none;padding:7px 12px;border-radius:8px;transition:.15s;border-left:2px solid transparent}
+.pnav-links a:hover{background:var(--brb);color:var(--br);border-left-color:var(--br)}
+.pnav-links a.active{background:var(--brb);color:var(--br);border-left-color:var(--br);font-weight:500}
+
+/* CONTENT */
+.pcontent{animation:fu .5s .2s ease both}
+.psection{margin-bottom:48px;scroll-margin-top:82px}
+.psection-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.psection-num{width:32px;height:32px;background:var(--brb);border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:13px;font-weight:800;color:var(--br);flex-shrink:0}
+.psection h2{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink);letter-spacing:-.4px}
+.psection p{font-size:15px;color:var(--inkm);line-height:1.75;font-weight:300;margin-bottom:14px}
+.psection p:last-child{margin-bottom:0}
+.psection ul{list-style:none;display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.psection ul li{font-size:15px;color:var(--inkm);font-weight:300;line-height:1.7;padding-left:20px;position:relative}
+.psection ul li::before{content:'';position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--brl)}
+.psection strong{font-weight:500;color:var(--ink)}
+.pcard{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px;margin-bottom:14px}
+.pcard:last-child{margin-bottom:0}
+.pcard-title{font-family:'Syne',sans-serif;font-size:14px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.pcard p{margin-bottom:0}
+.phighlight{background:var(--brb);border:1px solid rgba(91,79,232,.2);border-radius:var(--r);padding:18px 22px;margin-bottom:20px}
+.phighlight p{color:var(--br);font-weight:400;margin-bottom:0}
+.pdivider{height:1px;background:var(--bors);margin-bottom:48px}
+
+/* CONTACT CARD */
+.pcontact{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:28px;text-align:center;margin-top:48px}
+.pcontact h3{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;color:var(--ink);margin-bottom:8px}
+.pcontact p{font-size:14px;color:var(--inks);font-weight:300;margin-bottom:16px}
+.pcontact a{display:inline-flex;align-items:center;gap:8px;background:var(--br);color:#fff;text-decoration:none;border-radius:9px;padding:10px 22px;font-size:14px;font-weight:500;transition:.18s}
+.pcontact a:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="phero">
+  <div class="phero-bg"></div>
+  <div class="phero-dots"></div>
+  <div class="pbadge">🔒 Legal</div>
+  <h1>Privacy <span>Policy</span></h1>
+  <p class="phero-sub">We built Writlify to be as private as possible. Here's exactly what we do — and don't — collect.</p>
+  <div class="pupdated">Last updated: June 3, 2026</div>
+</div>
+
+<div class="playout">
+
+  <!-- Sidebar -->
+  <nav class="pnav">
+    <div class="pnav-title">On this page</div>
+    <div class="pnav-links">
+      <a href="#overview" class="active">Overview</a>
+      <a href="#data-we-collect">Data we collect</a>
+      <a href="#data-we-dont">Data we don't collect</a>
+      <a href="#how-we-use">How we use data</a>
+      <a href="#third-parties">Third parties</a>
+      <a href="#cookies">Cookies</a>
+      <a href="#your-rights">Your rights</a>
+      <a href="#children">Children</a>
+      <a href="#changes">Changes</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <div class="pcontent">
+
+    <div class="phighlight">
+      <p>💡 <strong>Short version:</strong> Writlify does not require you to create an account. We do not sell your data. The text you paste into our tools is sent to the AI API to generate results and is not stored by us.</p>
+    </div>
+
+    <div class="psection" id="overview">
+      <div class="psection-head">
+        <div class="psection-num">01</div>
+        <h2>Overview</h2>
+      </div>
+      <p>Writlify ("we", "us", or "our") is a free AI writing toolkit operated by Vectrasource Digital Suite. This Privacy Policy explains how we handle information when you use our website at <strong>writlify.com</strong>.</p>
+      <p>We are committed to protecting your privacy. Our tools are designed to be used without creating an account, and we intentionally minimise the data we collect.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="data-we-collect">
+      <div class="psection-head">
+        <div class="psection-num">02</div>
+        <h2>Data we collect</h2>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Usage data</div>
+        <p>We may collect basic, anonymised usage data such as pages visited, browser type, device type, and general geographic region (country level). This is used solely to understand how the product is being used and to improve it.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Rate limiting data</div>
+        <p>To prevent abuse, we store a daily usage counter in your browser's <strong>localStorage</strong>. This is stored locally on your device only — it never leaves your browser and we cannot access it.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Text you submit to tools</div>
+        <p>When you use an AI-powered tool, the text you enter is sent to our API endpoint and forwarded to the Claude AI API (by Anthropic) to generate a response. We do not log, store, or retain this text on our servers.</p>
+      </div>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="data-we-dont">
+      <div class="psection-head">
+        <div class="psection-num">03</div>
+        <h2>Data we don't collect</h2>
+      </div>
+      <p>We do not collect:</p>
+      <ul>
+        <li>Your name, email address, or any personal identifiers</li>
+        <li>Account credentials (there are no accounts)</li>
+        <li>Payment information (the service is free)</li>
+        <li>The content of your tool inputs after processing is complete</li>
+        <li>Any data from children under 13</li>
+      </ul>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="how-we-use">
+      <div class="psection-head">
+        <div class="psection-num">04</div>
+        <h2>How we use data</h2>
+      </div>
+      <p>Any data we collect is used only for:</p>
+      <ul>
+        <li><strong>Operating the service</strong> — processing your tool requests via the AI API</li>
+        <li><strong>Improving the product</strong> — understanding which tools are used most</li>
+        <li><strong>Preventing abuse</strong> — enforcing daily usage limits</li>
+        <li><strong>Analytics</strong> — understanding traffic patterns at an aggregate, anonymised level</li>
+      </ul>
+      <p>We do not sell, rent, or share your data with third parties for marketing purposes.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="third-parties">
+      <div class="psection-head">
+        <div class="psection-num">05</div>
+        <h2>Third parties</h2>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Anthropic (Claude AI)</div>
+        <p>AI-powered tools send your input text to Anthropic's Claude API to generate results. Anthropic's own privacy policy governs how they handle API data. You can read it at <strong>anthropic.com/privacy</strong>.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Vercel</div>
+        <p>Writlify is hosted on Vercel. Vercel may collect standard server logs (IP addresses, request metadata) as part of infrastructure operations. See Vercel's privacy policy at <strong>vercel.com/legal/privacy-policy</strong>.</p>
+      </div>
+      <div class="pcard">
+        <div class="pcard-title">Google Fonts</div>
+        <p>We load fonts from Google Fonts. Google may log requests for fonts. See Google's privacy policy at <strong>policies.google.com/privacy</strong>.</p>
+      </div>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="cookies">
+      <div class="psection-head">
+        <div class="psection-num">06</div>
+        <h2>Cookies &amp; local storage</h2>
+      </div>
+      <p>Writlify does not use tracking cookies. We use your browser's <strong>localStorage</strong> solely to store your daily tool usage count for rate limiting purposes. This data:</p>
+      <ul>
+        <li>Never leaves your device</li>
+        <li>Is automatically cleared after 24 hours</li>
+        <li>Contains no personal information</li>
+        <li>Can be cleared at any time by clearing your browser data</li>
+      </ul>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="your-rights">
+      <div class="psection-head">
+        <div class="psection-num">07</div>
+        <h2>Your rights</h2>
+      </div>
+      <p>Since we do not collect personal data linked to your identity, there is very little data to request, correct, or delete. However, you have the right to:</p>
+      <ul>
+        <li>Ask what data (if any) we hold about you</li>
+        <li>Request deletion of any data we may hold</li>
+        <li>Opt out of any analytics tracking</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at the email below.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="children">
+      <div class="psection-head">
+        <div class="psection-num">08</div>
+        <h2>Children's privacy</h2>
+      </div>
+      <p>Writlify is not directed at children under the age of 13. We do not knowingly collect any personal information from children. If you believe a child has used our service and provided personal data, please contact us and we will take steps to address it.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="changes">
+      <div class="psection-head">
+        <div class="psection-num">09</div>
+        <h2>Changes to this policy</h2>
+      </div>
+      <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. We encourage you to review this page periodically. Continued use of Writlify after changes constitutes your acceptance of the updated policy.</p>
+    </div>
+
+    <div class="pdivider"></div>
+
+    <div class="psection" id="contact">
+      <div class="psection-head">
+        <div class="psection-num">10</div>
+        <h2>Contact us</h2>
+      </div>
+      <p>If you have any questions about this Privacy Policy or how we handle your data, please reach out:</p>
+    </div>
+
+    <div class="pcontact">
+      <h3>Questions about privacy?</h3>
+      <p>We're happy to answer anything. Reach out to the Writlify team.</p>
+      <a href="mailto:privacy@writlify.com">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        privacy@writlify.com
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa" style="color:var(--br)">Privacy</a>
+    <a href="/terms.html" class="fa">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+  // Highlight active nav link on scroll
+  const sections = document.querySelectorAll('.psection');
+  const navLinks = document.querySelectorAll('.pnav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 100) current = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.remove('active');
+      if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
