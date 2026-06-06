@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         model: 'anthropic/claude-haiku-4-5',
-        max_tokens: 1000,
+        max_tokens: 2500,
         messages: [
           { role: 'system', content: system },
           { role: 'user', content: user }
