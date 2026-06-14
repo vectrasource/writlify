@@ -31,6 +31,8 @@
     { "src": "/tools/cover-letter-writer.html", "dest": "/tools/cover-letter-writer.html" },
     { "src": "/tools/bio-generator", "dest": "/tools/bio-generator.html" },
     { "src": "/tools/bio-generator.html", "dest": "/tools/bio-generator.html" },
+    { "src": "/tools/keyword-density", "dest": "/tools/keyword-density.html" },
+    { "src": "/tools/keyword-density.html", "dest": "/tools/keyword-density.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
