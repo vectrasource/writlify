@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Online Word Counter — Count Words &amp; Characters | Writlify</title>
+<meta name="description" content="Count words, characters, sentences, and paragraphs instantly with Writlify's free word counter. No sign-up, instant results.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/tools/word-counter" />
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://writlify.com/tools/word-counter">
+<meta property="og:title" content="Free Online Word Counter — Count Words &amp; Characters | Writlify">
+<meta property="og:description" content="Count words, characters, sentences, and paragraphs instantly with Writlify's free word counter. No sign-up, instant results.">
+<meta property="og:image" content="https://writlify.com/og.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Online Word Counter — Count Words &amp; Characters | Writlify">
+<meta name="twitter:description" content="Count words, characters, sentences, and paragraphs instantly with Writlify's free word counter. No sign-up, instant results.">
+<meta name="twitter:image" content="https://writlify.com/og.png">
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Writlify Free Word Counter",
+    "url": "https://writlify.com/tools/word-counter",
+    "description": "Free word counter that instantly counts words, characters, sentences, paragraphs, and reading time. No sign-up required.",
+    "applicationCategory": "WritingApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What does this tool count?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Words, characters, sentences, paragraphs, estimated reading time, and estimated speaking time — all updated in real time." }
+      },
+      {
+        "@type": "Question",
+        "name": "Does it update in real time?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, counts update instantly as you type or paste text — no button to press." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a text length limit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No, paste text of any length. The counter handles everything from short tweets to long articles." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is this useful for social media posts?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, it helps you stay within character limits for platforms like Twitter/X (280 characters), LinkedIn, and others." }
+      }
+    ]
+  }
+]
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--er:#E24B4A;--erb:#FCEBEB;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* PAGE LAYOUT */
+.page-wrap{max-width:860px;margin:0 auto;padding:0 2rem 80px}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* INTRO */
+.intro{padding:56px 0 0;animation:fu .5s ease both}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--inks);margin-bottom:20px}
+.breadcrumb a{color:var(--inks);text-decoration:none;transition:.15s}
+.breadcrumb a:hover{color:var(--br)}
+.breadcrumb span{opacity:.4}
+.intro-badge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:18px}
+.intro-badge .bdot{width:7px;height:7px;background:var(--br);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.intro h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5.5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);line-height:1.08;margin-bottom:16px}
+.intro h1 em{color:var(--br);font-style:normal}
+.intro-desc{font-size:17px;font-weight:300;color:var(--inks);max-width:620px;line-height:1.7;margin-bottom:32px}
+
+/* TOOL CARD */
+.tool-card{background:var(--wh);border:1px solid var(--bor);border-radius:20px;overflow:hidden;box-shadow:var(--sh);animation:fu .5s .1s ease both}
+.tool-card-head{padding:20px 24px;border-bottom:1px solid var(--bors);display:flex;align-items:center;gap:14px}
+.tool-ico{width:44px;height:44px;border-radius:11px;background:var(--brb);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tool-ico svg{width:22px;height:22px;stroke:var(--br);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tool-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--ink)}
+.tool-sub{font-size:13px;color:var(--inks);margin-top:1px}
+.tool-body{padding:24px;display:flex;flex-direction:column;gap:14px}
+.tool-foot{padding:14px 24px;border-top:1px solid var(--bors);display:flex;align-items:center;gap:10px}
+
+/* FORM ELEMENTS */
+.tlbl{font-size:12px;font-weight:500;color:var(--inkm);margin-bottom:6px;display:block;letter-spacing:.02em}
+.tta{width:100%;min-height:180px;padding:14px;font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.7;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);resize:vertical;outline:none;transition:.15s}
+.tta:focus{border-color:var(--br);background:var(--wh)}
+.tta::placeholder{color:var(--inkf);font-weight:300}
+
+/* STATS GRID */
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:480px){.sgrid{grid-template-columns:repeat(2,1fr)}}
+.sbox{background:var(--brb);border-radius:var(--rsm);padding:16px;text-align:center;transition:.2s}
+.sbox:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+.snum{font-family:'Syne',sans-serif;font-size:26px;font-weight:800;color:var(--br);line-height:1}
+.slb2{font-size:11px;color:var(--brl);margin-top:5px;font-weight:500;letter-spacing:.03em}
+
+/* CLEAR BUTTON */
+.btnclr{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:none;cursor:pointer;padding:9px 8px;transition:.15s}
+.btnclr:hover{color:var(--er)}
+
+/* HOW IT WORKS */
+.how-sec{padding:72px 0 0;animation:fu .5s .2s ease both}
+.sec-badge{display:inline-flex;align-items:center;gap:6px;background:var(--brb);color:var(--br);border-radius:100px;padding:4px 12px;font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px}
+.sec-h{font-family:'Syne',sans-serif;font-size:clamp(24px,3.5vw,34px);font-weight:800;color:var(--ink);line-height:1.1;letter-spacing:-1px;margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:24px 20px;transition:.2s}
+.step:hover{transform:translateY(-3px);box-shadow:var(--shl)}
+.stepn{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--brb2);line-height:1;margin-bottom:12px;letter-spacing:-2px}
+.stept{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.stepd{font-size:13px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FAQ */
+.faq-sec{padding:64px 0 0;animation:fu .5s .3s ease both}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+.faq-item{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px}
+.faq-q{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+
+@media(max-width:600px){
+  .intro{padding:36px 0 0}
+  .intro h1{font-size:30px}
+  .tool-body{padding:16px}
+  .tool-foot{padding:12px 16px}
+  .tool-card-head{padding:16px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="intro">
+    <div class="breadcrumb">
+      <a href="/">Writlify</a>
+      <span>›</span>
+      <a href="/#tools">Tools</a>
+      <span>›</span>
+      Word Counter
+    </div>
+    <div class="intro-badge"><div class="bdot"></div>Free · No sign-up · Instant results</div>
+    <h1>Free <em>Word Counter</em></h1>
+    <p class="intro-desc">Instantly count words, characters, sentences, and paragraphs in your text. Useful for essays, social media posts, and content with length limits. Free, no sign-up needed.</p>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-head">
+      <div class="tool-ico">
+        <svg viewBox="0 0 24 24"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+      </div>
+      <div>
+        <div class="tool-title">Word Counter</div>
+        <div class="tool-sub">Paste text · stats update live</div>
+      </div>
+    </div>
+
+    <div class="tool-body">
+      <div>
+        <label class="tlbl">Your text</label>
+        <textarea class="tta" id="ti" placeholder="Paste or type any text here — stats update as you type…" rows="8"></textarea>
+      </div>
+      <div class="sgrid">
+        <div class="sbox"><div class="snum" id="sw">0</div><div class="slb2">Words</div></div>
+        <div class="sbox"><div class="snum" id="sc">0</div><div class="slb2">Characters</div></div>
+        <div class="sbox"><div class="snum" id="ss">0</div><div class="slb2">Sentences</div></div>
+        <div class="sbox"><div class="snum" id="sp">0</div><div class="slb2">Paragraphs</div></div>
+        <div class="sbox"><div class="snum" id="sr">0m</div><div class="slb2">Read time</div></div>
+        <div class="sbox"><div class="snum" id="sk">0m</div><div class="slb2">Speak time</div></div>
+      </div>
+    </div>
+
+    <div class="tool-foot">
+      <button class="btnclr" id="clr-btn">Clear</button>
+    </div>
+  </div>
+
+  <div class="how-sec">
+    <div class="sec-badge">How it works</div>
+    <h2 class="sec-h">Three steps to know your numbers.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="stepn">01</div>
+        <div class="stept">Paste your text</div>
+        <div class="stepd">Copy any text — an essay, email, article, or social post — and paste it into the box above.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">02</div>
+        <div class="stept">View instant counts</div>
+        <div class="stepd">Word, character, sentence, and paragraph counts update live as you type. No button needed.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">03</div>
+        <div class="stept">Meet your limits</div>
+        <div class="stepd">Use the stats to trim or expand your text to hit essay word counts, character limits, or reading time targets.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-sec">
+    <div class="sec-badge">FAQ</div>
+    <h2 class="sec-h">Common questions.</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">What does this tool count?</div>
+        <div class="faq-a">Words, characters, sentences, paragraphs, estimated reading time (at 238 words/min), and estimated speaking time (at 130 words/min) — all updated in real time.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Does it update in real time?</div>
+        <div class="faq-a">Yes, counts update instantly as you type or paste text — no button to press, no page reload. Everything runs locally in your browser.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there a text length limit?</div>
+        <div class="faq-a">No, paste text of any length. The counter handles everything from a short tweet to a multi-chapter document without slowing down.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is this useful for social media posts?</div>
+        <div class="faq-a">Yes, it helps you stay within character limits for platforms like Twitter/X (280 characters), LinkedIn posts, Instagram captions, and more.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa">Privacy</a>
+    <a href="/terms.html" class="fa">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+const ti = document.getElementById('ti');
+const sw = document.getElementById('sw');
+const sc = document.getElementById('sc');
+const ss = document.getElementById('ss');
+const sp = document.getElementById('sp');
+const sr = document.getElementById('sr');
+const sk = document.getElementById('sk');
+
+ti.addEventListener('input', () => {
+  const t = ti.value;
+  const w = t.trim() === '' ? 0 : t.trim().split(/\s+/).length;
+  sw.textContent = w.toLocaleString();
+  sc.textContent = t.length.toLocaleString();
+  ss.textContent = t.trim() === '' ? 0 : (t.match(/[.!?]+/g) || []).length;
+  sp.textContent = t.trim() === '' ? 0 : t.split(/\n\s*\n/).filter(p => p.trim()).length || 1;
+  sr.textContent = (w === 0 ? 0 : Math.ceil(w / 238)) + 'm';
+  sk.textContent = (w === 0 ? 0 : Math.ceil(w / 130)) + 'm';
+});
+
+document.getElementById('clr-btn').addEventListener('click', () => {
+  ti.value = '';
+  ti.dispatchEvent(new Event('input'));
+});
+</script>
+</body>
+</html>

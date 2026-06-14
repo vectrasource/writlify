@@ -21,6 +21,8 @@
     { "src": "/tools/translator.html", "dest": "/tools/translator.html" },
     { "src": "/tools/tone-changer", "dest": "/tools/tone-changer.html" },
     { "src": "/tools/tone-changer.html", "dest": "/tools/tone-changer.html" },
+    { "src": "/tools/word-counter", "dest": "/tools/word-counter.html" },
+    { "src": "/tools/word-counter.html", "dest": "/tools/word-counter.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
