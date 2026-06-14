@@ -25,6 +25,8 @@
     { "src": "/tools/word-counter.html", "dest": "/tools/word-counter.html" },
     { "src": "/tools/case-converter", "dest": "/tools/case-converter.html" },
     { "src": "/tools/case-converter.html", "dest": "/tools/case-converter.html" },
+    { "src": "/tools/email-subject-writer", "dest": "/tools/email-subject-writer.html" },
+    { "src": "/tools/email-subject-writer.html", "dest": "/tools/email-subject-writer.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
