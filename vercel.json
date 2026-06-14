@@ -33,6 +33,8 @@
     { "src": "/tools/bio-generator.html", "dest": "/tools/bio-generator.html" },
     { "src": "/tools/keyword-density", "dest": "/tools/keyword-density.html" },
     { "src": "/tools/keyword-density.html", "dest": "/tools/keyword-density.html" },
+    { "src": "/tools/lorem-ipsum-generator", "dest": "/tools/lorem-ipsum-generator.html" },
+    { "src": "/tools/lorem-ipsum-generator.html", "dest": "/tools/lorem-ipsum-generator.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

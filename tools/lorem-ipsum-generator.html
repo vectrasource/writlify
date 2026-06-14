@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Lorem Ipsum Generator — Placeholder Text | Writlify</title>
+<meta name="description" content="Generate Lorem Ipsum placeholder text instantly for your designs and mockups with Writlify's free tool. No sign-up required.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/tools/lorem-ipsum-generator" />
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://writlify.com/tools/lorem-ipsum-generator">
+<meta property="og:title" content="Free Lorem Ipsum Generator — Placeholder Text | Writlify">
+<meta property="og:description" content="Generate Lorem Ipsum placeholder text instantly for your designs and mockups with Writlify's free tool. No sign-up required.">
+<meta property="og:image" content="https://writlify.com/og.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Lorem Ipsum Generator — Placeholder Text | Writlify">
+<meta name="twitter:description" content="Generate Lorem Ipsum placeholder text instantly for your designs and mockups with Writlify's free tool. No sign-up required.">
+<meta name="twitter:image" content="https://writlify.com/og.png">
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Writlify Free Lorem Ipsum Generator",
+    "url": "https://writlify.com/tools/lorem-ipsum-generator",
+    "description": "Free Lorem Ipsum generator for placeholder text in designs and mockups. Choose paragraphs, sentences, or words. No sign-up required.",
+    "applicationCategory": "WritingApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Lorem Ipsum used for?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Lorem Ipsum is standard placeholder text used by designers and developers to fill layouts before real content is ready. It lets you focus on design and typography without being distracted by meaningful content." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I generate different amounts of text?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, choose paragraphs, sentences, or words depending on your needs, and set the exact amount using the number input." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the text always the same?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It's based on classic Lorem Ipsum text, with variations depending on the amount requested. You can also switch to Plain English placeholder text if you prefer readable filler copy." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a limit to how much text I can generate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No, generate as much placeholder text as you need. The tool runs entirely in your browser with no server limits." }
+      }
+    ]
+  }
+]
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--er:#E24B4A;--erb:#FCEBEB;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* PAGE LAYOUT */
+.page-wrap{max-width:860px;margin:0 auto;padding:0 2rem 80px}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* INTRO */
+.intro{padding:56px 0 0;animation:fu .5s ease both}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--inks);margin-bottom:20px}
+.breadcrumb a{color:var(--inks);text-decoration:none;transition:.15s}
+.breadcrumb a:hover{color:var(--br)}
+.breadcrumb span{opacity:.4}
+.intro-badge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:18px}
+.intro-badge .bdot{width:7px;height:7px;background:var(--br);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.intro h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5.5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);line-height:1.08;margin-bottom:16px}
+.intro h1 em{color:var(--br);font-style:normal}
+.intro-desc{font-size:17px;font-weight:300;color:var(--inks);max-width:620px;line-height:1.7;margin-bottom:32px}
+
+/* TOOL CARD */
+.tool-card{background:var(--wh);border:1px solid var(--bor);border-radius:20px;overflow:hidden;box-shadow:var(--sh);animation:fu .5s .1s ease both}
+.tool-card-head{padding:20px 24px;border-bottom:1px solid var(--bors);display:flex;align-items:center;gap:14px}
+.tool-ico{width:44px;height:44px;border-radius:11px;background:var(--brb);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tool-ico svg{width:22px;height:22px;stroke:var(--br);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tool-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--ink)}
+.tool-sub{font-size:13px;color:var(--inks);margin-top:1px}
+.tool-body{padding:24px;display:flex;flex-direction:column;gap:12px}
+.tool-foot{padding:14px 24px;border-top:1px solid var(--bors);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+
+/* FORM ELEMENTS */
+.tlbl{font-size:12px;font-weight:500;color:var(--inkm);margin-bottom:6px;display:block;letter-spacing:.02em}
+.tsel{width:100%;padding:11px 14px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);outline:none;cursor:pointer}
+.tinp{width:100%;padding:11px 14px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);outline:none;transition:.15s}
+.tinp:focus{border-color:var(--br);background:var(--wh)}
+.trow2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.trow2{grid-template-columns:1fr}}
+.tchips{display:flex;gap:8px;flex-wrap:wrap}
+.tch{font-size:12px;padding:6px 13px;border-radius:100px;border:1px solid var(--bor);background:var(--wh);color:var(--inkm);cursor:pointer;transition:.15s;font-family:'DM Sans',sans-serif}
+.tch:hover,.tch.on{background:var(--brb);border-color:rgba(91,79,232,.3);color:var(--br)}
+.obox{background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);padding:16px;font-size:15px;line-height:1.7;color:var(--ink);min-height:100px;white-space:pre-wrap;word-break:break-word;display:none}
+.obox.show{display:block}
+.oempty{background:var(--surf);border:1.5px dashed var(--bor);border-radius:var(--rsm);padding:28px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:100px;color:var(--inkf);text-align:center}
+.oempty svg{opacity:.3;width:26px;height:26px}
+.oempty p{font-size:13px;font-weight:300}
+
+/* BUTTONS */
+.btnrun{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:9px;padding:10px 24px;cursor:pointer;transition:.2s;display:inline-flex;align-items:center;gap:7px}
+.btnrun:hover{background:var(--brd);transform:translateY(-1px)}
+.btncpy{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:1px solid var(--bor);border-radius:8px;padding:9px 16px;cursor:pointer;transition:.15s;display:none;align-items:center;gap:6px}
+.btncpy.show{display:inline-flex}
+.btncpy:hover{background:var(--brb);color:var(--br)}
+.btnclr{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:none;cursor:pointer;padding:9px 8px;transition:.15s;margin-right:auto}
+.btnclr:hover{color:var(--er)}
+
+/* HOW IT WORKS */
+.how-sec{padding:72px 0 0;animation:fu .5s .2s ease both}
+.sec-badge{display:inline-flex;align-items:center;gap:6px;background:var(--brb);color:var(--br);border-radius:100px;padding:4px 12px;font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px}
+.sec-h{font-family:'Syne',sans-serif;font-size:clamp(24px,3.5vw,34px);font-weight:800;color:var(--ink);line-height:1.1;letter-spacing:-1px;margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:24px 20px;transition:.2s}
+.step:hover{transform:translateY(-3px);box-shadow:var(--shl)}
+.stepn{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--brb2);line-height:1;margin-bottom:12px;letter-spacing:-2px}
+.stept{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.stepd{font-size:13px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FAQ */
+.faq-sec{padding:64px 0 0;animation:fu .5s .3s ease both}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+.faq-item{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px}
+.faq-q{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+
+@media(max-width:600px){
+  .intro{padding:36px 0 0}
+  .intro h1{font-size:30px}
+  .tool-body{padding:16px}
+  .tool-foot{padding:12px 16px}
+  .tool-card-head{padding:16px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="intro">
+    <div class="breadcrumb">
+      <a href="/">Writlify</a>
+      <span>›</span>
+      <a href="/#tools">Tools</a>
+      <span>›</span>
+      Lorem Ipsum Generator
+    </div>
+    <div class="intro-badge"><div class="bdot"></div>Free · No sign-up · Instant results</div>
+    <h1>Free <em>Lorem Ipsum</em> Generator</h1>
+    <p class="intro-desc">Generate placeholder Lorem Ipsum text for your designs, mockups, or layouts in seconds. Choose how many paragraphs, sentences, or words you need. Free, no sign-up needed.</p>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-head">
+      <div class="tool-ico">
+        <svg viewBox="0 0 24 24"><line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="17" y1="18" x2="3" y2="18"/></svg>
+      </div>
+      <div>
+        <div class="tool-title">Lorem Ipsum Generator</div>
+        <div class="tool-sub">Choose type &amp; amount · generate · copy</div>
+      </div>
+    </div>
+
+    <div class="tool-body" id="tool-body">
+      <div class="trow2">
+        <div>
+          <label class="tlbl">Type</label>
+          <select class="tsel" id="ttype">
+            <option value="paragraphs">Paragraphs</option>
+            <option value="sentences">Sentences</option>
+            <option value="words">Words</option>
+          </select>
+        </div>
+        <div>
+          <label class="tlbl">Amount</label>
+          <input class="tinp" type="number" id="tamt" value="3" min="1" max="20">
+        </div>
+      </div>
+      <div>
+        <label class="tlbl">Style</label>
+        <div class="tchips" id="mode-chips">
+          <button class="tch on" data-m="classic">Classic lorem ipsum</button>
+          <button class="tch" data-m="english">Plain English</button>
+        </div>
+      </div>
+      <div>
+        <label class="tlbl">Generated text</label>
+        <div class="oempty" id="oe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/></svg>
+          <p>Placeholder text appears here</p>
+        </div>
+        <div class="obox" id="to"></div>
+      </div>
+    </div>
+
+    <div class="tool-foot" id="tool-foot">
+      <button class="btnclr" id="clr-btn">Clear</button>
+      <button class="btnrun" id="run-btn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Generate
+      </button>
+    </div>
+  </div>
+
+  <div class="how-sec">
+    <div class="sec-badge">How it works</div>
+    <h2 class="sec-h">Three steps to instant placeholder text.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="stepn">01</div>
+        <div class="stept">Choose your amount</div>
+        <div class="stepd">Select paragraphs, sentences, or words and enter how many you need. Pick classic Lorem Ipsum or plain English filler text.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">02</div>
+        <div class="stept">Click Generate</div>
+        <div class="stepd">The tool produces your placeholder text instantly in the browser — no upload, no server, no waiting.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">03</div>
+        <div class="stept">Copy for your project</div>
+        <div class="stepd">Click Copy and paste the placeholder text straight into Figma, your CMS, email template, or any layout you're designing.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-sec">
+    <div class="sec-badge">FAQ</div>
+    <h2 class="sec-h">Common questions.</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">What is Lorem Ipsum used for?</div>
+        <div class="faq-a">Lorem Ipsum is standard placeholder text used by designers and developers to fill layouts before real content is ready. It lets you focus on design and typography without being distracted by meaningful content.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I generate different amounts of text?</div>
+        <div class="faq-a">Yes, choose paragraphs, sentences, or words depending on your needs, and set the exact amount using the number input.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is the text always the same?</div>
+        <div class="faq-a">It's based on classic Lorem Ipsum text, with variations depending on the amount requested. You can also switch to Plain English placeholder text if you prefer readable filler copy.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there a limit to how much text I can generate?</div>
+        <div class="faq-a">No, generate as much placeholder text as you need. The tool runs entirely in your browser with no server limits.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa">Privacy</a>
+    <a href="/terms.html" class="fa">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+const lp = [
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+  'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+  'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+];
+const en = [
+  'The quick brown fox jumps over the lazy dog near the river bank every morning.',
+  'Technology has transformed the way we communicate and collaborate across the globe.',
+  'Creative design requires careful thought, bold decisions, and a willingness to experiment.',
+  'Every great product starts with a clear understanding of the user needs and goals.',
+  'Building something meaningful takes time, effort, and a clear sense of direction.'
+];
+
+// Platform chip selection
+document.getElementById('mode-chips').querySelectorAll('.tch').forEach(c => {
+  c.addEventListener('click', () => {
+    document.getElementById('mode-chips').querySelectorAll('.tch').forEach(x => x.classList.remove('on'));
+    c.classList.add('on');
+  });
+});
+
+function generate() {
+  const type = document.getElementById('ttype').value;
+  const amt = parseInt(document.getElementById('tamt').value) || 3;
+  const style = document.querySelector('#mode-chips .tch.on')?.dataset.m || 'classic';
+  const pool = style === 'classic' ? lp : en;
+  let r = '';
+  if (type === 'words') {
+    const ws = pool.join(' ').split(' ');
+    r = Array.from({ length: amt }, (_, i) => ws[i % ws.length]).join(' ') + '.';
+  } else if (type === 'sentences') {
+    r = Array.from({ length: amt }, (_, i) => pool[i % pool.length]).join(' ');
+  } else {
+    r = Array.from({ length: amt }, (_, i) => Array.from({ length: 4 }, (_, j) => pool[(i * 4 + j) % pool.length]).join(' ')).join('\n\n');
+  }
+  const o = document.getElementById('to');
+  const e = document.getElementById('oe');
+  o.textContent = r;
+  o.classList.add('show');
+  e.style.display = 'none';
+  showCpy(r);
+}
+
+let cpyT;
+function showCpy(text) {
+  const f = document.getElementById('tool-foot');
+  let btn = f.querySelector('.btncpy');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.className = 'btncpy';
+    f.insertBefore(btn, document.getElementById('run-btn'));
+  }
+  btn.classList.add('show');
+  btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+  btn._t = text;
+  btn.onclick = () => {
+    navigator.clipboard.writeText(btn._t);
+    btn.textContent = '✓ Copied!';
+    clearTimeout(cpyT);
+    cpyT = setTimeout(() => {
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+    }, 2000);
+  };
+}
+
+document.getElementById('run-btn').addEventListener('click', generate);
+
+document.getElementById('clr-btn').addEventListener('click', () => {
+  const o = document.getElementById('to');
+  o.textContent = '';
+  o.classList.remove('show');
+  document.getElementById('oe').style.display = '';
+  const cpyBtn = document.querySelector('#tool-foot .btncpy');
+  if (cpyBtn) cpyBtn.classList.remove('show');
+});
+</script>
+</body>
+</html>
