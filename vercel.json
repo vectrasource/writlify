@@ -23,6 +23,8 @@
     { "src": "/tools/tone-changer.html", "dest": "/tools/tone-changer.html" },
     { "src": "/tools/word-counter", "dest": "/tools/word-counter.html" },
     { "src": "/tools/word-counter.html", "dest": "/tools/word-counter.html" },
+    { "src": "/tools/case-converter", "dest": "/tools/case-converter.html" },
+    { "src": "/tools/case-converter.html", "dest": "/tools/case-converter.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
