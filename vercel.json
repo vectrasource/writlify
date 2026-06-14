@@ -11,6 +11,8 @@
     { "src": "/og.png", "dest": "/og.png" },
     { "src": "/privacy.html", "dest": "/privacy.html" },
     { "src": "/terms.html", "dest": "/terms.html" },
+    { "src": "/tools/grammar-checker", "dest": "/tools/grammar-checker.html" },
+    { "src": "/tools/grammar-checker.html", "dest": "/tools/grammar-checker.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
