@@ -19,6 +19,8 @@
     { "src": "/tools/summarizer.html", "dest": "/tools/summarizer.html" },
     { "src": "/tools/translator", "dest": "/tools/translator.html" },
     { "src": "/tools/translator.html", "dest": "/tools/translator.html" },
+    { "src": "/tools/tone-changer", "dest": "/tools/tone-changer.html" },
+    { "src": "/tools/tone-changer.html", "dest": "/tools/tone-changer.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
