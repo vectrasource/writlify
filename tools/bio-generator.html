@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Bio Generator — Social Media &amp; Professional Bios | Writlify</title>
+<meta name="description" content="Generate a catchy bio for Instagram, LinkedIn, Twitter, or your resume instantly with Writlify's free AI bio generator. No sign-up.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/tools/bio-generator" />
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://writlify.com/tools/bio-generator">
+<meta property="og:title" content="Free AI Bio Generator — Social Media &amp; Professional Bios | Writlify">
+<meta property="og:description" content="Generate a catchy bio for Instagram, LinkedIn, Twitter, or your resume instantly with Writlify's free AI bio generator. No sign-up.">
+<meta property="og:image" content="https://writlify.com/og.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free AI Bio Generator — Social Media &amp; Professional Bios | Writlify">
+<meta name="twitter:description" content="Generate a catchy bio for Instagram, LinkedIn, Twitter, or your resume instantly with Writlify's free AI bio generator. No sign-up.">
+<meta name="twitter:image" content="https://writlify.com/og.png">
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Writlify Free AI Bio Generator",
+    "url": "https://writlify.com/tools/bio-generator",
+    "description": "Free AI bio generator that creates compelling bios for Instagram, LinkedIn, Twitter, and more. No sign-up required.",
+    "applicationCategory": "WritingApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What platforms does this work for?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Instagram, Twitter/X, LinkedIn, personal websites, portfolios, and more. The AI tailors the length and tone to the selected platform." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I generate a funny or professional bio?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, describe your tone or personality in the About you field and the AI adapts accordingly — from polished LinkedIn bios to witty Instagram captions." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long are the generated bios?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Bios are tailored to typical length limits for the platform you select — Twitter bios stay under 160 characters, Instagram under 150, LinkedIn runs 3–4 sentences, and others are 2–3 sentences." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a limit to how many bios I can generate?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Free AI tools have a daily usage limit per browser; come back the next day if you hit it. No account or sign-up is required." }
+      }
+    ]
+  }
+]
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--er:#E24B4A;--erb:#FCEBEB;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* PAGE LAYOUT */
+.page-wrap{max-width:860px;margin:0 auto;padding:0 2rem 80px}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* INTRO */
+.intro{padding:56px 0 0;animation:fu .5s ease both}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--inks);margin-bottom:20px}
+.breadcrumb a{color:var(--inks);text-decoration:none;transition:.15s}
+.breadcrumb a:hover{color:var(--br)}
+.breadcrumb span{opacity:.4}
+.intro-badge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:18px}
+.intro-badge .bdot{width:7px;height:7px;background:var(--br);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.intro h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5.5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);line-height:1.08;margin-bottom:16px}
+.intro h1 em{color:var(--br);font-style:normal}
+.intro-desc{font-size:17px;font-weight:300;color:var(--inks);max-width:620px;line-height:1.7;margin-bottom:32px}
+
+/* TOOL CARD */
+.tool-card{background:var(--wh);border:1px solid var(--bor);border-radius:20px;overflow:hidden;box-shadow:var(--sh);animation:fu .5s .1s ease both}
+.tool-card-head{padding:20px 24px;border-bottom:1px solid var(--bors);display:flex;align-items:center;gap:14px}
+.tool-ico{width:44px;height:44px;border-radius:11px;background:var(--brb);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tool-ico svg{width:22px;height:22px;stroke:var(--br);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tool-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--ink)}
+.tool-sub{font-size:13px;color:var(--inks);margin-top:1px}
+.tool-body{padding:24px;display:flex;flex-direction:column;gap:12px}
+.tool-foot{padding:14px 24px;border-top:1px solid var(--bors);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+
+/* FORM ELEMENTS */
+.tlbl{font-size:12px;font-weight:500;color:var(--inkm);margin-bottom:6px;display:block;letter-spacing:.02em}
+.tta{width:100%;min-height:80px;padding:14px;font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.7;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);resize:vertical;outline:none;transition:.15s}
+.tta:focus{border-color:var(--br);background:var(--wh)}
+.tta::placeholder{color:var(--inkf);font-weight:300}
+.tinp{width:100%;padding:11px 14px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);outline:none;transition:.15s}
+.tinp:focus{border-color:var(--br);background:var(--wh)}
+.tinp::placeholder{color:var(--inkf)}
+.trow2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.trow2{grid-template-columns:1fr}}
+.tchips{display:flex;gap:8px;flex-wrap:wrap}
+.tch{font-size:12px;padding:6px 13px;border-radius:100px;border:1px solid var(--bor);background:var(--wh);color:var(--inkm);cursor:pointer;transition:.15s;font-family:'DM Sans',sans-serif}
+.tch:hover,.tch.on{background:var(--brb);border-color:rgba(91,79,232,.3);color:var(--br)}
+.obox{background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);padding:16px;font-size:15px;line-height:1.7;color:var(--ink);min-height:100px;white-space:pre-wrap;word-break:break-word;display:none}
+.obox.show{display:block}
+.oempty{background:var(--surf);border:1.5px dashed var(--bor);border-radius:var(--rsm);padding:28px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:100px;color:var(--inkf);text-align:center}
+.oempty svg{opacity:.3;width:26px;height:26px}
+.oempty p{font-size:13px;font-weight:300}
+.sstrip{border-radius:6px;padding:9px 14px;font-size:13px;display:none;align-items:center;gap:8px}
+.sstrip.show{display:flex}
+.ssok{background:var(--okb);color:#085041}
+.sser{background:var(--erb);color:#791F1F}
+.ssld{background:var(--brb);color:var(--br)}
+
+/* BUTTONS */
+.btnrun{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:9px;padding:10px 24px;cursor:pointer;transition:.2s;display:inline-flex;align-items:center;gap:7px}
+.btnrun:hover:not(:disabled){background:var(--brd);transform:translateY(-1px)}
+.btnrun:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.btncpy{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:1px solid var(--bor);border-radius:8px;padding:9px 16px;cursor:pointer;transition:.15s;display:none;align-items:center;gap:6px}
+.btncpy.show{display:inline-flex}
+.btncpy:hover{background:var(--brb);color:var(--br)}
+.btnclr{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:none;cursor:pointer;padding:9px 8px;transition:.15s;margin-right:auto}
+.btnclr:hover{color:var(--er)}
+.ldots{display:inline-flex;gap:4px;align-items:center}
+.ldots span{width:5px;height:5px;background:var(--brl);border-radius:50%;animation:db 1.2s infinite}
+.ldots span:nth-child(2){animation-delay:.2s}
+.ldots span:nth-child(3){animation-delay:.4s}
+@keyframes db{0%,80%,100%{transform:scale(.8);opacity:.5}40%{transform:scale(1.2);opacity:1}}
+
+/* HOW IT WORKS */
+.how-sec{padding:72px 0 0;animation:fu .5s .2s ease both}
+.sec-badge{display:inline-flex;align-items:center;gap:6px;background:var(--brb);color:var(--br);border-radius:100px;padding:4px 12px;font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px}
+.sec-h{font-family:'Syne',sans-serif;font-size:clamp(24px,3.5vw,34px);font-weight:800;color:var(--ink);line-height:1.1;letter-spacing:-1px;margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:24px 20px;transition:.2s}
+.step:hover{transform:translateY(-3px);box-shadow:var(--shl)}
+.stepn{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--brb2);line-height:1;margin-bottom:12px;letter-spacing:-2px}
+.stept{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.stepd{font-size:13px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FAQ */
+.faq-sec{padding:64px 0 0;animation:fu .5s .3s ease both}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+.faq-item{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px}
+.faq-q{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+
+@media(max-width:600px){
+  .intro{padding:36px 0 0}
+  .intro h1{font-size:30px}
+  .tool-body{padding:16px}
+  .tool-foot{padding:12px 16px}
+  .tool-card-head{padding:16px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="intro">
+    <div class="breadcrumb">
+      <a href="/">Writlify</a>
+      <span>›</span>
+      <a href="/#tools">Tools</a>
+      <span>›</span>
+      Bio Generator
+    </div>
+    <div class="intro-badge"><div class="bdot"></div>Free · No sign-up · Powered by Claude AI</div>
+    <h1>Free AI <em>Bio Generator</em></h1>
+    <p class="intro-desc">Create a compelling bio for your social media profiles, LinkedIn, or resume in seconds. Describe yourself and get multiple bio options instantly. Free, no sign-up needed.</p>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-head">
+      <div class="tool-ico">
+        <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+      </div>
+      <div>
+        <div class="tool-title">Bio Generator</div>
+        <div class="tool-sub">Fill details · pick platform · generate</div>
+      </div>
+    </div>
+
+    <div class="tool-body" id="tool-body">
+      <div class="trow2">
+        <div>
+          <label class="tlbl">Your name</label>
+          <input class="tinp" id="tname" placeholder="Haris Ahmed">
+        </div>
+        <div>
+          <label class="tlbl">Role / title</label>
+          <input class="tinp" id="trole" placeholder="Entrepreneur &amp; AI developer">
+        </div>
+      </div>
+      <div>
+        <label class="tlbl">Platform</label>
+        <div class="tchips" id="mode-chips">
+          <button class="tch on" data-m="LinkedIn">LinkedIn</button>
+          <button class="tch" data-m="Twitter/X">Twitter/X</button>
+          <button class="tch" data-m="Instagram">Instagram</button>
+          <button class="tch" data-m="website About page">Website</button>
+          <button class="tch" data-m="portfolio">Portfolio</button>
+        </div>
+      </div>
+      <div>
+        <label class="tlbl">About you</label>
+        <textarea class="tta" id="ti" placeholder="Key achievements, experience, passions… e.g. Built 3 SaaS products, 5 years in AI, passionate about education" rows="3"></textarea>
+      </div>
+      <div>
+        <label class="tlbl">Bio</label>
+        <div class="oempty" id="oe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/></svg>
+          <p>Bio appears here</p>
+        </div>
+        <div class="obox" id="to"></div>
+        <div class="sstrip" id="ts"></div>
+      </div>
+    </div>
+
+    <div class="tool-foot" id="tool-foot">
+      <button class="btnclr" id="clr-btn">Clear</button>
+      <button class="btnrun" id="run-btn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Generate Bio
+      </button>
+    </div>
+  </div>
+
+  <div class="how-sec">
+    <div class="sec-badge">How it works</div>
+    <h2 class="sec-h">Three steps to a bio that stands out.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="stepn">01</div>
+        <div class="stept">Describe yourself</div>
+        <div class="stepd">Enter your name, role, and a few sentences about your achievements, experience, or personality.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">02</div>
+        <div class="stept">Choose a platform</div>
+        <div class="stepd">Select LinkedIn, Twitter/X, Instagram, Website, or Portfolio. The AI adjusts the length and tone to match each platform's norms.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">03</div>
+        <div class="stept">Generate and pick</div>
+        <div class="stepd">Click Generate Bio, read the result, copy it, and paste it straight into your profile. Run again to get a fresh variation.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-sec">
+    <div class="sec-badge">FAQ</div>
+    <h2 class="sec-h">Common questions.</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">What platforms does this work for?</div>
+        <div class="faq-a">Instagram, Twitter/X, LinkedIn, personal websites, and portfolios. The AI tailors the length and style to each — short and punchy for Twitter, detailed and professional for LinkedIn.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I generate a funny or professional bio?</div>
+        <div class="faq-a">Yes, describe your tone or personality in the About you field and the AI adapts accordingly — from polished LinkedIn bios to witty Instagram captions or confident portfolio introductions.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How long are the generated bios?</div>
+        <div class="faq-a">Bios are tailored to typical platform limits: Twitter/X stays under 160 characters, Instagram under 150, LinkedIn runs 3–4 sentences, and Website and Portfolio get 2–3 sentences.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there a limit to how many bios I can generate?</div>
+        <div class="faq-a">Free AI tools have a daily usage limit per browser; come back the next day if you hit it. No account or sign-up is required.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa">Privacy</a>
+    <a href="/terms.html" class="fa">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+const DAILY_LIMIT = 5;
+function getRateKey() { return 'wr_uses_' + new Date().toISOString().slice(0, 10); }
+function getUsesToday() { return parseInt(localStorage.getItem(getRateKey()) || '0'); }
+function incrementUses() { const k = getRateKey(); localStorage.setItem(k, getUsesToday() + 1); }
+function isRateLimited() { return getUsesToday() >= DAILY_LIMIT; }
+
+async function callAI(sys, usr) {
+  if (isRateLimited()) throw new Error('RATE_LIMIT');
+  const res = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ system: sys, user: usr }) });
+  const d = await res.json();
+  if (d.error) throw new Error(d.error);
+  incrementUses();
+  return d.text || '';
+}
+
+function showOut(txt) {
+  const o = document.getElementById('to');
+  const e = document.getElementById('oe');
+  o.textContent = txt;
+  o.classList.add('show');
+  e.style.display = 'none';
+}
+
+function showSt(msg, type) {
+  const el = document.getElementById('ts');
+  el.textContent = msg;
+  el.className = 'sstrip show ' + ({ ok: 'ssok', er: 'sser', ld: 'ssld' }[type] || 'ssok');
+}
+
+function hideSt() {
+  document.getElementById('ts').className = 'sstrip';
+}
+
+let cpyT;
+function showCpy(text) {
+  const f = document.getElementById('tool-foot');
+  let btn = f.querySelector('.btncpy');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.className = 'btncpy';
+    f.insertBefore(btn, document.getElementById('run-btn'));
+  }
+  btn.classList.add('show');
+  btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+  btn._t = text;
+  btn.onclick = () => {
+    navigator.clipboard.writeText(btn._t);
+    btn.textContent = '✓ Copied!';
+    clearTimeout(cpyT);
+    cpyT = setTimeout(() => {
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+    }, 2000);
+  };
+}
+
+function setLoading(on) {
+  const btn = document.getElementById('run-btn');
+  btn.disabled = on;
+  btn.innerHTML = on
+    ? '<div class="ldots"><span></span><span></span><span></span></div> Generating bio…'
+    : '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Generate Bio';
+}
+
+// Platform chip selection
+document.getElementById('mode-chips').querySelectorAll('.tch').forEach(c => {
+  c.addEventListener('click', () => {
+    document.getElementById('mode-chips').querySelectorAll('.tch').forEach(x => x.classList.remove('on'));
+    c.classList.add('on');
+  });
+});
+
+document.getElementById('run-btn').addEventListener('click', async () => {
+  const name = document.getElementById('tname').value || 'Professional';
+  const role = document.getElementById('trole').value;
+  const plat = document.querySelector('#mode-chips .tch.on')?.dataset.m || 'LinkedIn';
+  const info = document.getElementById('ti').value;
+  setLoading(true);
+  showSt('Generating bio…', 'ld');
+  try {
+    const result = await callAI(
+      `Write a compelling professional bio for ${plat}. Size guide: LinkedIn=3-4 sentences, Twitter=under 160 chars, Instagram=under 150 chars, others=2-3 sentences. Write in third person. Return ONLY the bio.`,
+      `Name: ${name}\nRole: ${role}\nInfo: ${info}`
+    );
+    showOut(result);
+    showSt('Bio ready!', 'ok');
+    showCpy(result);
+  } catch (e) {
+    showSt(
+      e.message === 'RATE_LIMIT'
+        ? 'You\'ve used 5 free AI tools today. Come back tomorrow!'
+        : 'Something went wrong. Please try again.',
+      'er'
+    );
+  }
+  setLoading(false);
+});
+
+document.getElementById('clr-btn').addEventListener('click', () => {
+  document.getElementById('tname').value = '';
+  document.getElementById('trole').value = '';
+  document.getElementById('ti').value = '';
+  const o = document.getElementById('to');
+  o.textContent = '';
+  o.classList.remove('show');
+  document.getElementById('oe').style.display = '';
+  hideSt();
+  const cpyBtn = document.querySelector('#tool-foot .btncpy');
+  if (cpyBtn) cpyBtn.classList.remove('show');
+});
+</script>
+</body>
+</html>
