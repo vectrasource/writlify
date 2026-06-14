@@ -17,6 +17,8 @@
     { "src": "/tools/paraphraser.html", "dest": "/tools/paraphraser.html" },
     { "src": "/tools/summarizer", "dest": "/tools/summarizer.html" },
     { "src": "/tools/summarizer.html", "dest": "/tools/summarizer.html" },
+    { "src": "/tools/translator", "dest": "/tools/translator.html" },
+    { "src": "/tools/translator.html", "dest": "/tools/translator.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

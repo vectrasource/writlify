@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free AI Translator Online — Translate Any Language | Writlify</title>
+<meta name="description" content="Translate text between languages instantly with Writlify's free AI-powered translator. Accurate, fast, no sign-up required.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://writlify.com/tools/translator" />
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://writlify.com/tools/translator">
+<meta property="og:title" content="Free AI Translator Online — Translate Any Language | Writlify">
+<meta property="og:description" content="Translate text between languages instantly with Writlify's free AI-powered translator. Accurate, fast, no sign-up required.">
+<meta property="og:image" content="https://writlify.com/og.png">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free AI Translator Online — Translate Any Language | Writlify">
+<meta name="twitter:description" content="Translate text between languages instantly with Writlify's free AI-powered translator. Accurate, fast, no sign-up required.">
+<meta name="twitter:image" content="https://writlify.com/og.png">
+
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Writlify Free AI Translator",
+    "url": "https://writlify.com/tools/translator",
+    "description": "Free AI translator that converts text between languages instantly with natural, context-aware results. No sign-up required.",
+    "applicationCategory": "WritingApplication",
+    "operatingSystem": "Any",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which languages are supported?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The AI supports a wide range of major world languages including English, Hindi, Malayalam, Spanish, French, German, Arabic, Japanese, Chinese, Portuguese, Russian, and more." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the translation natural or literal?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The AI aims for natural, context-aware translation rather than literal word-for-word, producing results that read fluently in the target language." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a character limit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No strict limits — works for sentences, paragraphs, or full documents." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I translate informal or slang text?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, though formal text generally translates most accurately. Slang and idioms may be adapted rather than translated literally." }
+      }
+    ]
+  }
+]
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--br:#5B4FE8;--brd:#4035C4;--brl:#A89FF5;--brb:#F0EFFE;--brb2:#E8E6FD;--ink:#0F0D1F;--inkm:#3A3650;--inks:#7C7A8E;--inkf:#B5B3C2;--surf:#FAFAFE;--wh:#fff;--bor:rgba(91,79,232,.13);--bors:rgba(91,79,232,.07);--ok:#1D9E75;--okb:#E1F5EE;--er:#E24B4A;--erb:#FCEBEB;--r:14px;--rsm:9px;--sh:0 2px 20px rgba(91,79,232,.08);--shl:0 8px 40px rgba(91,79,232,.15)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--surf);color:var(--ink);line-height:1.6;overflow-x:hidden}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:200;background:rgba(250,250,254,.93);backdrop-filter:blur(18px);border-bottom:1px solid var(--bors);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:62px}
+.nl{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nlm{width:36px;height:36px;background:var(--br);border-radius:10px;display:flex;align-items:center;justify-content:center}
+.nlm svg{width:20px;height:20px}
+.nlw{font-family:'Syne',sans-serif;font-size:20px;font-weight:800;color:var(--ink)}
+.nlw span{color:var(--br)}
+.nav-r{display:flex;align-items:center;gap:6px}
+.nav-a{font-size:13px;color:var(--inks);text-decoration:none;padding:6px 11px;border-radius:8px;transition:.15s}
+.nav-a:hover{background:var(--brb);color:var(--br)}
+.nav-btn{font-size:13px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:8px;padding:8px 18px;cursor:pointer;transition:.18s;text-decoration:none}
+.nav-btn:hover{background:var(--brd);transform:translateY(-1px)}
+
+/* PAGE LAYOUT */
+.page-wrap{max-width:860px;margin:0 auto;padding:0 2rem 80px}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* INTRO */
+.intro{padding:56px 0 0;animation:fu .5s ease both}
+.breadcrumb{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--inks);margin-bottom:20px}
+.breadcrumb a{color:var(--inks);text-decoration:none;transition:.15s}
+.breadcrumb a:hover{color:var(--br)}
+.breadcrumb span{opacity:.4}
+.intro-badge{display:inline-flex;align-items:center;gap:7px;background:var(--brb);color:var(--br);border:1px solid rgba(91,79,232,.2);border-radius:100px;padding:5px 14px 5px 10px;font-size:13px;font-weight:500;margin-bottom:18px}
+.intro-badge .bdot{width:7px;height:7px;background:var(--br);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.4)}}
+.intro h1{font-family:'Syne',sans-serif;font-size:clamp(32px,5.5vw,52px);font-weight:800;letter-spacing:-1.5px;color:var(--ink);line-height:1.08;margin-bottom:16px}
+.intro h1 em{color:var(--br);font-style:normal}
+.intro-desc{font-size:17px;font-weight:300;color:var(--inks);max-width:620px;line-height:1.7;margin-bottom:32px}
+
+/* TOOL CARD */
+.tool-card{background:var(--wh);border:1px solid var(--bor);border-radius:20px;overflow:hidden;box-shadow:var(--sh);animation:fu .5s .1s ease both}
+.tool-card-head{padding:20px 24px;border-bottom:1px solid var(--bors);display:flex;align-items:center;gap:14px}
+.tool-ico{width:44px;height:44px;border-radius:11px;background:var(--brb);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.tool-ico svg{width:22px;height:22px;stroke:var(--br);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tool-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;color:var(--ink)}
+.tool-sub{font-size:13px;color:var(--inks);margin-top:1px}
+.tool-body{padding:24px;display:flex;flex-direction:column;gap:14px}
+.tool-foot{padding:14px 24px;border-top:1px solid var(--bors);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+
+/* FORM ELEMENTS */
+.tlbl{font-size:12px;font-weight:500;color:var(--inkm);margin-bottom:6px;display:block;letter-spacing:.02em}
+.tta{width:100%;min-height:140px;padding:14px;font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.7;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);resize:vertical;outline:none;transition:.15s}
+.tta:focus{border-color:var(--br);background:var(--wh)}
+.tta::placeholder{color:var(--inkf);font-weight:300}
+.tsel{width:100%;padding:11px 14px;font-family:'DM Sans',sans-serif;font-size:14px;color:var(--ink);background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);outline:none;cursor:pointer;transition:.15s;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%237C7A8E' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center}
+.tsel:focus{border-color:var(--br);background-color:var(--wh)}
+.obox{background:var(--surf);border:1.5px solid var(--bor);border-radius:var(--rsm);padding:16px;font-size:15px;line-height:1.7;color:var(--ink);min-height:100px;white-space:pre-wrap;word-break:break-word;display:none}
+.obox.show{display:block}
+.oempty{background:var(--surf);border:1.5px dashed var(--bor);border-radius:var(--rsm);padding:28px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:100px;color:var(--inkf);text-align:center}
+.oempty svg{opacity:.3;width:26px;height:26px}
+.oempty p{font-size:13px;font-weight:300}
+.sstrip{border-radius:6px;padding:9px 14px;font-size:13px;display:none;align-items:center;gap:8px}
+.sstrip.show{display:flex}
+.ssok{background:var(--okb);color:#085041}
+.sser{background:var(--erb);color:#791F1F}
+.ssld{background:var(--brb);color:var(--br)}
+
+/* BUTTONS */
+.btnrun{font-family:'DM Sans',sans-serif;font-size:14px;font-weight:500;background:var(--br);color:#fff;border:none;border-radius:9px;padding:10px 24px;cursor:pointer;transition:.2s;display:inline-flex;align-items:center;gap:7px}
+.btnrun:hover:not(:disabled){background:var(--brd);transform:translateY(-1px)}
+.btnrun:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.btncpy{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:1px solid var(--bor);border-radius:8px;padding:9px 16px;cursor:pointer;transition:.15s;display:none;align-items:center;gap:6px}
+.btncpy.show{display:inline-flex}
+.btncpy:hover{background:var(--brb);color:var(--br)}
+.btnclr{font-family:'DM Sans',sans-serif;font-size:13px;background:transparent;color:var(--inks);border:none;cursor:pointer;padding:9px 8px;transition:.15s;margin-right:auto}
+.btnclr:hover{color:var(--er)}
+.ldots{display:inline-flex;gap:4px;align-items:center}
+.ldots span{width:5px;height:5px;background:var(--brl);border-radius:50%;animation:db 1.2s infinite}
+.ldots span:nth-child(2){animation-delay:.2s}
+.ldots span:nth-child(3){animation-delay:.4s}
+@keyframes db{0%,80%,100%{transform:scale(.8);opacity:.5}40%{transform:scale(1.2);opacity:1}}
+
+/* HOW IT WORKS */
+.how-sec{padding:72px 0 0;animation:fu .5s .2s ease both}
+.sec-badge{display:inline-flex;align-items:center;gap:6px;background:var(--brb);color:var(--br);border-radius:100px;padding:4px 12px;font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:12px}
+.sec-h{font-family:'Syne',sans-serif;font-size:clamp(24px,3.5vw,34px);font-weight:800;color:var(--ink);line-height:1.1;letter-spacing:-1px;margin-bottom:28px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.step{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:24px 20px;transition:.2s}
+.step:hover{transform:translateY(-3px);box-shadow:var(--shl)}
+.stepn{font-family:'Syne',sans-serif;font-size:40px;font-weight:800;color:var(--brb2);line-height:1;margin-bottom:12px;letter-spacing:-2px}
+.stept{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.stepd{font-size:13px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FAQ */
+.faq-sec{padding:64px 0 0;animation:fu .5s .3s ease both}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:28px}
+.faq-item{background:var(--wh);border:1px solid var(--bor);border-radius:var(--r);padding:20px 22px}
+.faq-q{font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.faq-a{font-size:14px;color:var(--inks);font-weight:300;line-height:1.6}
+
+/* FOOTER */
+footer{border-top:1px solid var(--bors);padding:36px 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px;max-width:1100px;margin:0 auto}
+.flogo{font-family:'Syne',sans-serif;font-size:16px;font-weight:800;color:var(--ink)}
+.flogo span{color:var(--br)}
+.flinks{display:flex;gap:20px}
+.fa{font-size:13px;color:var(--inks);text-decoration:none;transition:.15s}
+.fa:hover{color:var(--br)}
+.fcpy{font-size:12px;color:var(--inkf)}
+
+@media(max-width:600px){
+  .intro{padding:36px 0 0}
+  .intro h1{font-size:30px}
+  .tool-body{padding:16px}
+  .tool-foot{padding:12px 16px}
+  .tool-card-head{padding:16px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nl">
+    <div class="nlm"><svg viewBox="0 0 28 28" fill="none"><path d="M6 20L10 8L14 16L17 11L21 20" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="22" cy="8" r="2.5" fill="#A89FF5"/></svg></div>
+    <div class="nlw">Writl<span>ify</span></div>
+  </a>
+  <div class="nav-r">
+    <a href="/#tools" class="nav-a">Tools</a>
+    <a href="/#how" class="nav-a">How it works</a>
+    <a href="/#tools" class="nav-btn">Try free →</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="intro">
+    <div class="breadcrumb">
+      <a href="/">Writlify</a>
+      <span>›</span>
+      <a href="/#tools">Tools</a>
+      <span>›</span>
+      Translator
+    </div>
+    <div class="intro-badge"><div class="bdot"></div>Free · No sign-up · Powered by Claude AI</div>
+    <h1>Free AI <em>Translator</em></h1>
+    <p class="intro-desc">Translate text between languages instantly using AI — more natural and context-aware than basic word-for-word translation. Free, no account needed.</p>
+  </div>
+
+  <div class="tool-card">
+    <div class="tool-card-head">
+      <div class="tool-ico">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+      </div>
+      <div>
+        <div class="tool-title">Translator</div>
+        <div class="tool-sub">Paste text · pick language · translate</div>
+      </div>
+    </div>
+
+    <div class="tool-body" id="tool-body">
+      <div>
+        <label class="tlbl">Text to translate</label>
+        <textarea class="tta" id="ti" placeholder="Paste text to translate…" rows="6"></textarea>
+      </div>
+      <div>
+        <label class="tlbl">Translate to</label>
+        <select class="tsel" id="tlang">
+          <option>Spanish</option>
+          <option>French</option>
+          <option>German</option>
+          <option>Arabic</option>
+          <option>Hindi</option>
+          <option>Chinese (Simplified)</option>
+          <option>Japanese</option>
+          <option>Portuguese</option>
+          <option>Russian</option>
+          <option>Italian</option>
+          <option>Korean</option>
+          <option>Dutch</option>
+          <option>Turkish</option>
+          <option>Swedish</option>
+          <option>Malayalam</option>
+          <option>Tamil</option>
+          <option>Urdu</option>
+          <option>Bengali</option>
+        </select>
+      </div>
+      <div>
+        <label class="tlbl">Translation</label>
+        <div class="oempty" id="oe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          <p>Translation appears here</p>
+        </div>
+        <div class="obox" id="to"></div>
+        <div class="sstrip" id="ts"></div>
+      </div>
+    </div>
+
+    <div class="tool-foot" id="tool-foot">
+      <button class="btnclr" id="clr-btn">Clear</button>
+      <button class="btnrun" id="run-btn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        Translate
+      </button>
+    </div>
+  </div>
+
+  <div class="how-sec">
+    <div class="sec-badge">How it works</div>
+    <h2 class="sec-h">Three steps to an instant translation.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="stepn">01</div>
+        <div class="stept">Paste your text</div>
+        <div class="stepd">Copy any sentence, paragraph, or document you want to translate and paste it into the box above.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">02</div>
+        <div class="stept">Pick a language</div>
+        <div class="stepd">Select your target language from the dropdown — Spanish, Hindi, French, Malayalam, and many more are available.</div>
+      </div>
+      <div class="step">
+        <div class="stepn">03</div>
+        <div class="stept">Get instant results</div>
+        <div class="stepd">Click Translate and Claude AI returns a natural, fluent translation in seconds. Copy and use it anywhere.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq-sec">
+    <div class="sec-badge">FAQ</div>
+    <h2 class="sec-h">Common questions.</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-q">Which languages are supported?</div>
+        <div class="faq-a">The AI supports a wide range of major world languages including English, Hindi, Malayalam, Spanish, French, German, Arabic, Japanese, Chinese (Simplified), Portuguese, Russian, Italian, Korean, and more.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is the translation natural or literal?</div>
+        <div class="faq-a">The AI aims for natural, context-aware translation rather than literal word-for-word, producing results that read fluently in the target language — not like a dictionary lookup.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Is there a character limit?</div>
+        <div class="faq-a">No strict limits — works for sentences, paragraphs, or full documents. For very long content, translating in sections can help maintain quality.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I translate informal or slang text?</div>
+        <div class="faq-a">Yes, though formal text generally translates most accurately. Slang and idioms may be adapted to natural equivalents in the target language rather than translated literally.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="flogo">Writl<span>ify</span></div>
+  <div class="flinks">
+    <a href="/" class="fa">Home</a>
+    <a href="/privacy.html" class="fa">Privacy</a>
+    <a href="/terms.html" class="fa">Terms</a>
+  </div>
+  <div class="fcpy">© 2026 Writlify · Vectrasource Digital Suite</div>
+</footer>
+
+<script>
+const DAILY_LIMIT = 5;
+function getRateKey() { return 'wr_uses_' + new Date().toISOString().slice(0, 10); }
+function getUsesToday() { return parseInt(localStorage.getItem(getRateKey()) || '0'); }
+function incrementUses() { const k = getRateKey(); localStorage.setItem(k, getUsesToday() + 1); }
+function isRateLimited() { return getUsesToday() >= DAILY_LIMIT; }
+
+async function callAI(sys, usr) {
+  if (isRateLimited()) throw new Error('RATE_LIMIT');
+  const res = await fetch('/api/chat', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ system: sys, user: usr }) });
+  const d = await res.json();
+  if (d.error) throw new Error(d.error);
+  incrementUses();
+  return d.text || '';
+}
+
+function showOut(txt) {
+  const o = document.getElementById('to');
+  const e = document.getElementById('oe');
+  o.textContent = txt;
+  o.classList.add('show');
+  e.style.display = 'none';
+}
+
+function showSt(msg, type) {
+  const el = document.getElementById('ts');
+  el.textContent = msg;
+  el.className = 'sstrip show ' + ({ ok: 'ssok', er: 'sser', ld: 'ssld' }[type] || 'ssok');
+}
+
+function hideSt() {
+  document.getElementById('ts').className = 'sstrip';
+}
+
+let cpyT;
+function showCpy(text) {
+  const f = document.getElementById('tool-foot');
+  let btn = f.querySelector('.btncpy');
+  if (!btn) {
+    btn = document.createElement('button');
+    btn.className = 'btncpy';
+    f.insertBefore(btn, document.getElementById('run-btn'));
+  }
+  btn.classList.add('show');
+  btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+  btn._t = text;
+  btn.onclick = () => {
+    navigator.clipboard.writeText(btn._t);
+    btn.textContent = '✓ Copied!';
+    clearTimeout(cpyT);
+    cpyT = setTimeout(() => {
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy';
+    }, 2000);
+  };
+}
+
+function setLoading(on, lang) {
+  const btn = document.getElementById('run-btn');
+  btn.disabled = on;
+  btn.innerHTML = on
+    ? `<div class="ldots"><span></span><span></span><span></span></div> Translating to ${lang}…`
+    : '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Translate';
+}
+
+// Run translator
+document.getElementById('run-btn').addEventListener('click', async () => {
+  const text = document.getElementById('ti').value.trim();
+  const lang = document.getElementById('tlang').value;
+  if (!text) { showSt('Please enter some text.', 'er'); return; }
+  setLoading(true, lang);
+  showSt(`Translating to ${lang}…`, 'ld');
+  try {
+    const result = await callAI(
+      `Translate the following text to ${lang}. Return ONLY the translated text.`,
+      text
+    );
+    showOut(result);
+    showSt('Done! Copy the result below.', 'ok');
+    showCpy(result);
+  } catch (e) {
+    showSt(
+      e.message === 'RATE_LIMIT'
+        ? 'You\'ve used 5 free AI tools today. Come back tomorrow!'
+        : 'Something went wrong. Please try again.',
+      'er'
+    );
+  }
+  setLoading(false, lang);
+});
+
+// Clear button
+document.getElementById('clr-btn').addEventListener('click', () => {
+  document.getElementById('ti').value = '';
+  const o = document.getElementById('to');
+  o.textContent = '';
+  o.classList.remove('show');
+  document.getElementById('oe').style.display = '';
+  hideSt();
+  const cpyBtn = document.querySelector('#tool-foot .btncpy');
+  if (cpyBtn) cpyBtn.classList.remove('show');
+});
+</script>
+</body>
+</html>
