@@ -27,6 +27,8 @@
     { "src": "/tools/case-converter.html", "dest": "/tools/case-converter.html" },
     { "src": "/tools/email-subject-writer", "dest": "/tools/email-subject-writer.html" },
     { "src": "/tools/email-subject-writer.html", "dest": "/tools/email-subject-writer.html" },
+    { "src": "/tools/cover-letter-writer", "dest": "/tools/cover-letter-writer.html" },
+    { "src": "/tools/cover-letter-writer.html", "dest": "/tools/cover-letter-writer.html" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
